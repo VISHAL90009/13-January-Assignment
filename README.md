@@ -47,5 +47,30 @@ int main() {
 
 Q-2
 
+class tri
+{    
+   string ss;    
+   string name ;    
+        public:     
+  tri(string ss)    
+{        
+name = ss;    
+}    
+tri(){        
+name = "I love programming languages ";   
+ }        };
+public class Programming 
+{        
+public:        
+void main(string[] args) 
+{        
+tri obj = new tri();        
+obj.ss = "cpp";        
+cout<<"I love " + obj.ss;  
+cout<<obj.name;    
+}};
+
+
+
 
 
